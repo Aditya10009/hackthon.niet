@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empowerment & Gender Equality</title>
+    <style>
+        /* CSS styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            /* Light gray background */
+            color: #333;
+            scroll-behavior: smooth;
+            /* Smooth scrolling */
+        }
+
+        header {
+            background-color: #6a0dad;
+            /* Purple header */
+            padding: 20px;
+            text-align: center;
+            color: #fff;
+            /* White text */
+            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+            /* Add shadow */
+            position: relative;
+            /* Ensure logo positioning */
+            overflow: hidden;
+            /* Hide overflowing elements */
+        }
+
+        header h1 {
+            color: #fff;
+            /* White color for topic */
+            font-weight: bold;
+            /* Bold font */
+            font-size: 36px;
+            /* Increase font size */
+            margin: 0;
+            /* Remove default margin */
+            margin-bottom: 20px;
+            /* Add space below heading */
+        }
+
+        .header-logo {
+            max-width: 100px;
+            /* Adjust the maximum width */
+            height: auto;
+            margin-bottom: 20px;
+            float: left;
+            /* Align to the left */
+            margin-right: 20px;
+            /* Add space between logo and heading */
+            animation: slideInLeft 1s forwards;
+            /* Slide in animation */
+        }
+
+        .section-header {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 20px;
+            opacity: 0;
+            /* Initially hidden */
+            animation: fadeIn 1s forwards;
+            /* Fade in animation */
+            animation-delay: 0.5s;
+            /* Delay animation */
+        }
+
+        .section-header div {
+            flex: 1;
+            padding: 10px;
+            cursor: pointer;
+            border-radius: 10px;
+            /* Rounded corners */
+            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+            /* Add shadow */
+            transition: background-color 0.3s ease;
+            /* Smooth transition */
+        }
+
+        #resources {
+            background-color: rgb(255, 30, 0);
+        }
+
+        #get-involved {
+            background-color: green;
+        }
+
+        #donate {
+            background-color: blue;
+        }
+
+        #ai-button {
+            background-color: #6a0dad;
+            /* Purple button */
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            font-size: 16px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        #ai-button:hover {
+            background-color: #4b077a;
+            /* Darker purple on hover */
+        }
+
+        .join-now-button {
+            background-color: #6a0dad;
+            /* Purple button */
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            font-size: 16px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .join-now-button:hover {
+            background-color: #4b077a;
+            /* Darker purple on hover */
+        }
+
+        main {
+            padding: 20px;
+            position: relative;
+            /* Ensure footer positioning */
+            min-height: calc(100vh - 80px);
+            /* Adjust height for footer */
+        }
+
+        section {
+            margin-bottom: 30px;
+            /* Add some space between sections */
+            padding: 20px;
+            border-radius: 10px;
+            /* Rounded corners */
+            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+            /* Add shadow */
+            opacity: 0;
+            /* Initially hidden */
+            animation: fadeIn 1s forwards;
+            /* Fade in animation */
+            animation-delay: 0.5s;
+            /* Delay animation */
+        }
+
+        h1,
+        h2 {
+            color: #6a0dad;
+            /* Purple headings */
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        footer {
+            background-color: #6a0dad;
+            /* Purple footer */
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            width: 100%;
+            position: fixed;
+            /* Fixed position */
+            bottom: 0;
+            box-shadow: 0px -2px 4px rgba(0, 0, 0, 0.2);
+            /* Add shadow */
+            animation: slideInUp 5s forwards;
+            /* Slide up animation */
+            animation-delay: 1s;
+            /* Delay animation */
+        }
+
+        /* Keyframe animations */
+        @keyframes slideInLeft {
+            from {
+                transform: translateX(-100%);
+            }
+
+            to {
+                transform: translateX(0);
+            }
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes slideInUp {
+            from {
+                transform: translateY(100%);
+            }
+
+            to {
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+
+<header>
+    <div><img src="people-care-logo-design-template_474888-1892.avif" class="header-logo"></div>
+    <h1>Empowerment & Gender Equality</h1>
+    <div class="section-header">
+        <div id="resources">Resources</div>
+        <div id="get-involved">Get Involved</div>
+        <div id="donate">
+            <button id="ai-button"
+                onclick="window.location.href='https://mediafiles.botpress.cloud/5ffdb103-7f68-4587-9a20-60a7b4d02b4b/webchat/bot.html'">Artificial
+                Intelligence</button>
+        </div>
+    </div>
+</header>
+
+<section id="about-section" class="section-content">
+    <div>
+        <img src="Screenshot (36).png" </div>
+        <h2 style="text-align: center; font-size: 3rem;">About</h2>
+        <p style="font-size: 1.5rem;">This is a platform dedicated to promoting gender equality and empowerment in society.</p>
+</section>
+<section id="resources-section" class="section-content">
+    <h2 style="text-align: center; font-size: 3rem;">Resources</h2>
+    <ul>
+        
+       
+        <li><a href="#">Articles</a></li>
+        <li><a href="https://youtu.be/gupM7RMANZc?si=jCCPj-5xE69xmJtj" target="_blank">Video</a></li>
+        <li><a href="">Books</a></li>
+    </ul>
+</section>
+<section id="get-involved-section" class="section-content">
+    <h2 style="text-align: center; font-size: 3rem;>Get Involved</h2>
+    <p style="font-size: 1.5rem;">Join our community and participate in events and discussions.</p>
+    <button class="join-now-button"
+        onclick="window.location.href='https://docs.google.com/forms/d/e/1FAIpQLSduddn9fPSOaFbg8T46NkUPScgo3wo41r3IZC2zLP3qlXU04Q/viewform?usp=sf_link'">Join
+        Now</button>
+</section>
+<section id="location-section" class="section-content">
+    <h2 style="font-size: 3rem;">Location</h2>
+    <p>Find us on the map below:</p>
+    <button onclick="openMap()">Search Maps</button>
+    <div class="map-box" id="mapBox">
+        <button onclick="closeMap()">Close Map</button>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387268.1143816125!2d-74.25986391893344!3d40.69767000567843!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c250c527ae0e51%3A0xf44a6248b208cd2d!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2suk!4v1618257896528!5m2!1sen!2suk"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+</section>
+<section>
+    <a href="EOS_Feminist_Framework.pdf"><img src="Screenshot (35).png" </a>
+</section>
+
+
+
+</main>
+<footer>
+    <p>&copy; 2024 Empowerment & Gender Equality</p>
+</footer>
+
+<script>
+    function openMap() {
+        document.getElementById("mapBox").style.display = "block";
+    }
+
+    function closeMap() {
+        document.getElementById("mapBox").style.display = "none";
+    }
+</script>
+</body>
+
+</html>
